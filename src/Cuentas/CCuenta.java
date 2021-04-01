@@ -90,7 +90,7 @@ public class CCuenta {
     public void ingresar(double cantidad) throws Exception
     {
         if (cantidad<0)
-            throw new Exception("No se puede ingresar  cantidad negativa");
+            throw new Exception("No  puede ingresar  cantidad negativa");
         setSaldo(getSaldo() + cantidad);
     }
 
